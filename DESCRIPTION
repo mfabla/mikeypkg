@@ -1,6 +1,6 @@
 Package: mikeypkg
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Mikey's R Package
 Version: 1.0.0
 Author: Mikey
 Maintainer: The package maintainer <mfabla@ablat>
