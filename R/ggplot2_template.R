@@ -1,17 +1,17 @@
 #' ggplot2 template
 #'
-#' This is a template to use for ggplot2 outputs
+#' This is a template function to use for ggplot2 outputs. Use this as an extension to a ggplot2 script.
 #'
 #' @import ggplot2
 #' @inheritParams  ggplot2::theme_bw
 #' @export
 #'
 #' @examples
-#' \code x_var <- factor(sample(x = 1:2, size = 100, replace = T), label = c('False', 'True'))
-#' \code y_var <- sample(x = 1:100, size = 100, replace = T)
-#' \code xy = data.frame(x_var, y_var)
+#' x_var <- factor(sample(x = 1:2, size = 100, replace = T), label = c('False', 'True'))
+#' y_var <- sample(x = 1:100, size = 100, replace = T)
+#' xy = data.frame(x_var, y_var)
 #'
-#' \code ggplot(xy, aes(x = x_var)) + geom_bar() + ggplot2_template() + ggtitle('False vs True')
+#' ggplot(xy, aes(x = x_var)) + geom_bar() + ggplot2_template() + ggtitle('False vs True')
 
 
 
